@@ -2,8 +2,11 @@
 
 Now, you'll use Copilot Edits to implement the product listing feature.
 
-1. In Visual Studio, open a new Copilot Edits chat (press `Ctrl+Shift+E`).
-2. Type: "Implement a product listing page in Products.razor that fetches products from ProductService and displays them in a list with product name, description, price, and image."
+1. In Visual Studio, open a new Copilot Edits chat with the **+** icon that has a pen editing a document or `Ctrl+Shift+N` with Copilot Chat in focus
+
+    ![Edits icon in VS copilot](./images/5-new-edits.png)
+
+2. Type: "Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image."
 3. Review the suggestions and click "Accept All" to implement the code.
 
     The code should look similar to the following:
@@ -21,7 +24,7 @@ Now, you'll use Copilot Edits to implement the product listing feature.
             @foreach (var product in products)
             {
                 <tr>
-                    <td><img height="80" width="80" src="@imagePrefix/@product.ImageUrl" /></td>
+                    <td><img height="80" width="80" src="@($"{imagePrefix}/{product.ImageUrl}")" /></td>
                     <td>@product.Name</td>
                     <td>@product.Description</td>
                     <td>@product.Price</td>

@@ -16,5 +16,7 @@ public static class ProductEndpoints
         })
         .WithName("GetAllProducts")
         .Produces<List<Product>>(StatusCodes.Status200OK);
+
+
     }
 }

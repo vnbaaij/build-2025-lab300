@@ -2,11 +2,11 @@
 
 Custom instructions help tailor Copilot's responses to your specific needs and project requirements.
 
-1. Open the `github-instructions.md` file in the `.github` folder.
+1. Open the `copilot-instructions.md` file in the `.github` folder, you can also get to it from the `Solution Items` folder in Visual Studio.
 2. Add project-specific information about your application:
 
 ```markdown
-## TinyShop Architecture
+## TinyShop
 
 ### Backend
 - Products project is the backend API.

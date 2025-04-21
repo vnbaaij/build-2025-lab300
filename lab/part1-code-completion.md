@@ -16,7 +16,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    - DELETE to remove a product
 
    The end code sould look similar to:
-   
+
    ```csharp
    group.MapGet("/", async (ProductDataContext db) =>
    {
@@ -78,7 +78,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    ```
 
 6. Try using slash commands for documentation:
-   - Type `///` above a method to generate XML documentation.
+   - Type `///` above a method to generate XML documentation on the `MapProductEndpoints` this can also be brought up with `Alt+/` for inline and then entering **/**.
    - Type `/explain` to have Copilot explain a block of code.
 
 7. Test your implementation:

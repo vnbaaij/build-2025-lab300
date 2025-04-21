@@ -11,8 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE25919E-C9FD-449C-B1FA-3E28784535A4}"
 	ProjectSection(SolutionItems) = preProject
-		..\.github\github-instructions.md = ..\.github\github-instructions.md
 		..\lab\part0-exploring-codebase.md = ..\lab\part0-exploring-codebase.md
+		..\.github\copilot-instructions.md = ..\.github\copilot-instructions.md
 		..\lab\part1-code-completion.md = ..\lab\part1-code-completion.md
 		..\lab\part2-enhancing-ui.md = ..\lab\part2-enhancing-ui.md
 		..\lab\part3-referencing-files.md = ..\lab\part3-referencing-files.md
