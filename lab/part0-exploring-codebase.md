@@ -4,6 +4,9 @@ GitHub Copilot Chat allows you to ask questions about your code and get intellig
 
 1. Open the solution in Visual Studio 2022.
 2. Click on the Github Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
+
+   ![Open chat window dialog](./images/1-open-copilot-chat.png)
+
 3. Try asking questions about the project structure:
    - "What projects are in this solution and how do things work together?"
    - "What is the TinyShop application architecture?"
