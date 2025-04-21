@@ -6,7 +6,7 @@ This lab will guide you through using GitHub Copilot's various features in Visua
 
 - Visual Studio 2022 with GitHub Copilot extension installed
 - .NET 9 SDK
-- GitHub account with Copilot subscription
+- GitHub account with Copilot subscription (including Free)
 
 ## Lab Overview
 
