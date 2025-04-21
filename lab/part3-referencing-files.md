@@ -4,7 +4,7 @@ In this section, you'll learn how to reference existing code files in your chat 
 
 1. Open `Products.razor` from the Store project.
 2. Click on the Github Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
-3. Type: "@ProductService" to reference the ProductService file.
+3. Type: "#ProductService.cs" to reference the ProductService file.
 4. Ask: "How would I implement getting and visualizing the products in a table using the code in ProductService?"
 5. Review the code suggestion but don't implement it yet.
 6. Follow up with: "How would this look in a grid instead of a list?"

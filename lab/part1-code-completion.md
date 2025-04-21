@@ -78,7 +78,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    ```
 
 6. Try using slash commands for documentation:
-   - Type `///` above a method to generate XML documentation on the `MapProductEndpoints` this can also be brought up with `Alt+/` for inline and then entering **/**.
+   - Type `///` above a method to generate XML documentation on the `MapProductEndpoints` this can also be brought up with `Alt+/` for inline and then entering **/** which will bring up a list of commands.
    - Type `/explain` to have Copilot explain a block of code.
 
 7. Test your implementation:
