@@ -1,7 +1,6 @@
 ﻿@page "/products"
 @using DataEntities
 @using Store.Services
-@inject ProductService ProductService
 @inject IConfiguration Configuration
 @attribute [StreamRendering(true)]
 
@@ -17,27 +16,9 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Image</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var product in products)
-            {
-                <tr>
-                    <td><img height="80" width="80" src="https://raw.githubusercontent.com/MicrosoftDocs/mslearn-dotnet-cloudnative/main/dotnet-docker/Products/wwwroot/images/@product.ImageUrl" /></td>
-                    <td>@product.Name</td>
-                    <td>@product.Description</td>
-                    <td>@product.Price</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <!--Implement Products table here-->
+    <p>Under construction...</p>
+
 }
 
 @code {
@@ -49,7 +30,6 @@ else
         // Simulate asynchronous loading to demonstrate streaming rendering
         await Task.Delay(500);
         imagePrefix = Configuration["ImagePrefix"]!;
-        products = await ProductService.GetProducts();
     }
 
 }
