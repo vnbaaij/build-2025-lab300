@@ -6,12 +6,12 @@ With Copilot Edits, you will add the files which need to be updated to the conte
 
 Let's add the ability to see a list of images into the app:
 
-1. In Visual Studio, open a new Copilot Edits chat with the **+** icon that has a pen editing a document or `Ctrl+Shift+N` with Copilot Chat in focus
+1. [] In Visual Studio, open a new Copilot Edits chat with the **+** icon that has a pen editing a document or `Ctrl+Shift+N` with Copilot Chat in focus
 
     ![Edits icon in VS copilot](./images/5-new-edits.png)
 
-2. If available, select **Claude 3.5 Sonnet** from the list of available models
-3. Type: "Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image."
+2. [] If available, select **Claude 3.5 Sonnet** from the list of available models
+3. [] Type: "Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image."
 
     > [!NOTE]
     > You should use your own phrasing when generating the prompt. As highlighted previously, part of the exercise is to become comfortable creating prompts for GitHub Copilot. One key tip is it's always good to provide more guidance to ensure you get the code you are looking for.
@@ -27,7 +27,7 @@ Unlike our prior examples where we worked with an individual file, we're now wor
 
 GitHub Copilot will propose the following changes to the application including updating the Products.razor and adding a Products.razor.css and maybe more.
 
-1. Review the suggestions and click "Accept All" to implement the code.
+1. [] Review the suggestions and click "Accept All" to implement the code.
 
     The code should look similar to the following:
     ```html
@@ -54,6 +54,6 @@ GitHub Copilot will propose the following changes to the application including u
     </table>
     ```
 
-5. Run the application to see your new product listing page.
+5. [] Run the application to see your new product listing page.
 
 **Key Takeaway**: Copilot Edits can generate complete feature implementations based on your natural language descriptions, saving significant development time.
