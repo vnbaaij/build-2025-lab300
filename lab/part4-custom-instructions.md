@@ -21,7 +21,7 @@ Here are some guidelines to consider when creating a Copilot instructions file:
 
 ## Create a Copilot instructions file
 
-1. [] Open the `copilot-instructions.md` file in the `.github` folder, you can also get to it from the `Solution Items` folder in Visual Studio.
+1. [] Open the **copilot-instructions.md** file in the **.github** folder, you can also get to it from the **Solution Items** folder in Visual Studio.
 2. [] Add project-specific information about your application:
 
     ```markdown

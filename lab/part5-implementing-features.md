@@ -11,7 +11,7 @@ Let's add the ability to see a list of images into the app:
     ![Edits icon in VS copilot](./images/5-new-edits.png)
 
 2. [] If available, select **Claude 3.5 Sonnet** from the list of available models
-3. [] Type: "Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image."
+3. [] Type: `Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image.`
 
     > [!NOTE]
     > You should use your own phrasing when generating the prompt. As highlighted previously, part of the exercise is to become comfortable creating prompts for GitHub Copilot. One key tip is it's always good to provide more guidance to ensure you get the code you are looking for.

@@ -5,7 +5,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
 > [!IMPORTANT]
 > For this exercise, **DO NOT** copy and paste the code snippet provided, but rather type it manually. This will allow you to experience code completion as you would if you were coding back at your desk. You'll likely see you only have to type a few characters before GitHub Copilot begins suggesting the rest.
 
-1. [] Open `ProductEndpoints.cs` in the Products project under **Endpoints** - it should be empty or contain minimal code.
+1. [] Open **ProductEndpoints.cs** in the Products project under **Endpoints** - it should be empty or contain minimal code.
 2. [] Begin typing a comment to describe what you want to implement:
    ```csharp
    group.MapGet(
@@ -91,12 +91,12 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    > [!IMPORTANT]
    >Because LLMs are probabilistic, not deterministic, the exact code generated can vary. The above is a representative example. If your code is different, that's just fine as long as it works!
 
-7. [] Try changing the variable name of `id` to `productId` in the new `MapGet` method and see Next Edit Suggestions help out.
+7. [] Try changing the variable name of **id** to `productId` in the new **MapGet** method and see Next Edit Suggestions help out.
 
    ![NES suggestions more](./images/1-nes-2.png)
 
 8. [] Try using documentation generation:
-   - Type `///` above a method to generate XML documentation on the `MapProductEndpoints` this can also be brought up with `Alt+/` for inline and then entering **/** which will bring up a list of commands.
+   - Type `///` above a method to generate XML documentation on the **MapProductEndpoints** this can also be brought up with `Alt+/` for inline and then entering **/** which will bring up a list of commands.
 
    ![documentation generation by Copilot](./images/1-docs.png)
 

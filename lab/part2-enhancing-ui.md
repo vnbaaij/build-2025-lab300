@@ -5,7 +5,7 @@ Now, you'll improve the loading experience using Copilot's inline chat.
 > [!NOTE]
 > This exercise does supply specific prompts to type, but as part of the learning experience we encourage you to discover how to interact with Copilot. Feel free to talk in natural language, describing what you're looking for or need to accomplish.
 
-1. [] Open `Products.razor` in the **Store** project under **Components**.
+1. [] Open **Products.razor** in the **Store** project under **Components**.
 2. [] Find the "Loading..." text in the code.
 3. [] Select this text and right-click.
 4. [] Choose "Copilot > Start inline chat" or press `Alt+/`.
