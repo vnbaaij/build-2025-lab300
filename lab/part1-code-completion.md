@@ -20,11 +20,17 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
 
    ![NES showing up](./images/1-nes.png)
 
-6. [] Implement the following endpoints using GitHub Copilot's suggestions:
+6. [] We now can implement the following endpoints using GitHub Copilot:
    - GET product by ID
    - POST to create a new product
    - PUT to update a product
    - DELETE to remove a product
+
+   - We can continue to use suggestions OR we could open GitHub Copilot Chat and work with Agent mode:
+     - Open GitHub Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
+     - Switch to **Agent** mode.
+     - ![Switch to agent mode](./images/1-agent.png)]
+     - Ask the agent: `Can you implement the rest of the endpoints for the Product API and also implement the ProductService integration on the Store project?`
 
    The end code sould look similar to:
 

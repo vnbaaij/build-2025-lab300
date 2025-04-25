@@ -24,7 +24,7 @@ You'll use GitHub Copilot's various features to enhance and complete this applic
 3. [Enhancing UI with Inline Chat](lab/part2-enhancing-ui.md)
 4. [Referencing Code Files in Chat](lab/part3-referencing-files.md)
 5. [Using Custom Instructions](lab/part4-custom-instructions.md)
-6. [Implementing Features with Copilot Edits](lab/part5-implementing-features.md)
+6. [Implementing Features with Copilot Agent](lab/part5-implementing-features.md)
 7. [Using Copilot Vision](lab/part6-copilot-vision.md)
 8. [Debugging with Copilot](lab/part7-debugging-with-copilot.md)
 9. [Commit Summary Descriptions](lab/part8-commit-summary-descriptions.md)
