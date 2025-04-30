@@ -13,7 +13,7 @@ To complete this workshop you will need to clone a repository with a copy of the
 <!--For this lab you need a [GitHub account](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts), if you don't have one no worries, you can create a personal account for free. Create your account in the [GitHub sign up page](https://github.com/signup).-->
 
 1. [] Open **Edge** and go to `https://github.com/Microsoft-Build-2025`
-2. [] Select **Continue** for Singe sign-on to **Skillable Events**
+2. [] Select **Continue** for Single sign-on to **Skillable Events**
 3. [] Enter +++@lab.CloudPortalCredential(User1).Username+++ on the Email, phone, or Skype input box and click on Next
 4. [] Enter +++@lab.CloudPortalCredential(User1).Password+++ on the password field and click on Sign in with your entity provider button
 5. [] Open Visual Studio 2022
