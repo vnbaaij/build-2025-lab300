@@ -8,19 +8,25 @@ To complete this workshop you will need to clone a repository with a copy of the
 ## Configure GitHub Copilot
 
 > [!IMPORTANT]
-> For this lab you need a [GitHub account](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts), if you don't have one no worries, you can create a personal account for free. Create your account in the [GitHub sign up page](https://github.com/signup).
+> For your convenience we have the username and password on the instructions, but you can also see their values in the Resources tab
 
-1. [] Create a GitHub Account if you don't already have one
-2. [] Open Visual Studio 2022
-3. [] Select **Continue without code**
-4. [] Click on Copilot icon on top bar (left side next to the search input box)
+<!--For this lab you need a [GitHub account](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts), if you don't have one no worries, you can create a personal account for free. Create your account in the [GitHub sign up page](https://github.com/signup).-->
+
+1. [] Open **Edge** and go to `https://github.com/Microsoft-Build-2025`
+2. [] Select **Continue** for Singe sign-on to **Skillable Events**
+3. [] Enter +++@lab.CloudPortalCredential(User1).Username+++ on the Email, phone, or Skype input box and click on Next
+4. [] Enter +++@lab.CloudPortalCredential(User1).Password+++ on the password field and click on Sign in with your entity provider button
+5. [] Open Visual Studio 2022
+6. [] Select **Continue without code**
+7. [] Click on Copilot icon on top bar (left side next to the search input box)
 
 ![Copilot icon](./images/0-copilot-icon.png)
 
-4. [] Click on **Sign in to use Copilot** option
-5. [] A browser will automatically open, enter your GitHub login and password (and MFA if asked to)
-6. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio.**)
-8. [] After Copilot is setup you should now have a **Walkthrough: GitHub Copilot Chat** open tab in Visual Studio
+8. [] Click on **Sign in to use Copilot** option
+9. [] A browser will automatically open, you should already be signed in
+10. [] Authorize the user by clicking continue and authorize VS Code access to user email by clicking on Authorize Visual-Studio* button
+11. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio.**)
+12. [] After Copilot is setup you should now have a **Walkthrough: GitHub Copilot Chat** open tab in Visual Studio and the GitHub Copilot button should be green.
 
 We are now ready to start working on our code with the help of Copilot.
 
