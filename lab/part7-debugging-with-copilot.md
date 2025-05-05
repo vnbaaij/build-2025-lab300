@@ -2,7 +2,7 @@
 
 In this section, you'll learn how to use Copilot to debug an exception in your application.
 
-1. Launch the web application.
+1. Launch the web application if it isn't yet
 2. Click on the **Go to About** button in the navigation menu.
 3. Observe that an exception occurs, and the application crashes.
 4. Press the **Ask Copilot** option in the pop up.

@@ -26,7 +26,7 @@ Let's add the ability to see a list of images into the app:
 
 Copilot agent mode begins implementing the code suggestions!
 
-## Reviewing the suggestions
+## Reviewing the changes
 
 Unlike our prior examples where we worked with an individual file, we're now working with changes across multiple files - and maybe multiple sections of multiple files. Fortunately, Copilot Agent has functionality to help streamline this process.
 
@@ -59,6 +59,29 @@ GitHub Copilot will propose the following changes to the application including u
     </table>
     ```
 
+    The **ProductService* should have been injected at the top of the file:
+    ```html
+    @inject ProductService ProductService
+    ```
+
+    The code should have been updated at the bottom of the file:
+    ```cs
+        @code {
+        private List<Product>? products;
+        private string imagePrefix = string.Empty;
+    
+        protected override async Task OnInitializedAsync()
+        {
+            // Simulate asynchronous loading to demonstrate streaming rendering
+            await Task.Delay(500);
+            imagePrefix = Configuration["ImagePrefix"]!;
+            products = await ProductService.GetProducts();
+        }
+    }
+    ```
+
 1. [] Run the application to see your new product listing page.
+
+1. [] Stop debugging and close the application
 
 **Key Takeaway**: Copilot Agent can generate complete feature implementations based on your natural language descriptions, saving significant development time.

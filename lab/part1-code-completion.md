@@ -2,10 +2,12 @@
 
 In this section, you'll use GitHub Copilot's code completion to implement API endpoints.
 
-> [!IMPORTANT]
-> For this exercise, **DO NOT** copy and paste the code snippet provided, but rather type it manually. This will allow you to experience code completion as you would if you were coding back at your desk. You'll likely see you only have to type a few characters before GitHub Copilot begins suggesting the rest.
+> IMPORTANT: For this exercise, **DO NOT** copy and paste the code snippet provided, but rather type it manually. This will allow you to experience code completion as you would if you were coding back at your desk. You'll likely see you only have to type a few characters before GitHub Copilot begins suggesting the rest.
 
 1. [] Open **ProductEndpoints.cs** in the **Products** project under **Endpoints** - it should be empty or contain minimal code.
+
+   > Note: GitHub Copilot will not give code suggestions when debugging.
+   
 2. [] Begin typing a comment to describe what you want to implement:
    ```csharp
    group.MapGet(
@@ -109,5 +111,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
 9. [] Test your implementation:
    - Run the AppHost project.
    - Test your new endpoints by going to **https://localhost:7130/api/Product/1**
+
+10. [] Stop debugging and close the application
 
 **Key Takeaway**: GitHub Copilot can generate complete API implementations based on your comments or partial code, significantly speeding up development.

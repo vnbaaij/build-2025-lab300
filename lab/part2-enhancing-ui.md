@@ -23,4 +23,6 @@ Now, you'll improve the loading experience using Copilot's inline chat.
     ```
 8. [] Run the application to see your new loading spinner in action.
 
+9. [] Stop debugging and close the application
+
 **Key Takeaway**: Inline chat allows you to make targeted improvements to your code without leaving your editor context.

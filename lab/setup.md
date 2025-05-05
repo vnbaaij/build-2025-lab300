@@ -48,6 +48,8 @@ The .NET Aspire AppHost will start two applications and the .NET Aspire Dashboar
 - The backend .NET app on **https://localhost:7130**. 
 - The frontend Blazor app on **http://localhost:7085**. You can see the app by opening that URL from the dashboard
 
+2. [] Stop debugging and close the application
+
 ## Summary and next steps
 
 You've now cloned the repository you'll use for this for the rest of the workshop.
