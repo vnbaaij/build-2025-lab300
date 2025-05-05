@@ -50,4 +50,4 @@ The .NET Aspire AppHost will start two applications and the .NET Aspire Dashboar
 
 ## Summary and next steps
 
-You've now cloned the repository you'll use for this workshop and have GitHub Copilot setup! Next let's **add a new endpoint to the server**
+You've now cloned the repository you'll use for this for the rest of the workshop.
