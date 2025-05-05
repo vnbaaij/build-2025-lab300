@@ -16,7 +16,7 @@ In this section, you'll learn how to reference existing code files in your chat 
    ![New chat](./images/5-new-edits.png)
 
 1. [] Type: `#ProductService.cs` to reference the ProductService file.
-1. [] Ask: `How would I implement getting and visualizing the products in a table using the code in #ProductService?`
+1. [] Ask: `How would I implement getting and visualizing the products in a table using the code in #ProductService and the css required.`
 1. [] Review the code suggestion but don't implement it yet.
 1. [] Follow up with: `How would this look in a grid instead of a list?`
 1. [] Notice how Copilot can reference existing code to provide contextual suggestions.
