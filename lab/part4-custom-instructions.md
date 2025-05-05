@@ -41,7 +41,7 @@ Here are some guidelines to consider when creating a Copilot instructions file:
     ```
 
 3. [] Go back to Copilot Chat and re-run the prompt from Part 3, you can do this by pressing the up key. or
-    i. [] Ask: `How would I implement getting and visualizing the products in a table using the code in #ProductService?`
+    i. [] Ask: `How would I implement getting and visualizing the products in a table using the code in #ProductService and the css required.`
     i. [] Review the code suggestion but don't implement it yet.
     i. [] Follow up with: `How would this look in a grid instead of a list?`
 4. [] Notice how the responses now incorporate your custom instructions.
