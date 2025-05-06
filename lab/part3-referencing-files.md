@@ -2,12 +2,12 @@
 
 In this section, you'll learn how to reference existing code files in your chat conversations.
 
-1. [] Open **Products.razor** from the Store project.
-1. [] Ensure that GitHub Copilto Chat is open by clickin on the Github Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
+1. [] Open the **Products.razor** again from the **Store** project.
+1. [] Ensure that GitHub Copilto Chat is open by clicking on the Github Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
 
    ![Open chat window dialog](./images/1-open-copilot-chat.png)
 
-1. Change the mode to `Manual(Chat)`
+1. Change the mode to `Ask`
 
 	![Change to chat](./images/3-chat.png)
 

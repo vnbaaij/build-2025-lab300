@@ -7,6 +7,7 @@ With Copilot Agent, you will add the files which need to be updated to the conte
 Let's add the ability to see a list of images into the app:
 
 1. [] Open GitHub Copilot Chat in the top-right corner of Visual Studio and select **Open Chat Window** or press `Ctrl+\+C` if Copilot chat isn't open.
+
 1. [] Switch to **Agent** mode.
 
    ![Switch to agent mode](./images/1-agent.png)
@@ -15,7 +16,10 @@ Let's add the ability to see a list of images into the app:
 
     ![New chat icon in VS copilot](./images/5-new-edits.png)
 
-1. [] If available, select **Claude 3.5 Sonnet** from the list of available models
+1. [] At the bottom of the GitHub Copilot Chat pane, select the model (default is GPT-4o") from the dropdown list, and select **Claude 3.5 Sonnet** from the list of available models.
+
+    ![Select Sonnet in Copilot](./images/5-select-sonnet.png)
+
 1. [] Type: `Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image.`
 
     > [!NOTE]
