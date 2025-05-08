@@ -20,13 +20,11 @@ Let's add the ability to see a list of images into the app:
 
     ![Select Sonnet in Copilot](./images/5-select-sonnet.png)
 
-1. [] Type: `Implement a product listing page in Products.razor that fetches products from #ProductService and displays them in a list with product name, description, price, and image.`
+1. [] Type: `Implement a simple product listing page in Products.razor that fetches products from #ProductService and displays them in a simple list with product name, description, price, and image.`
 
-    > [!NOTE]
-    > You should use your own phrasing when generating the prompt. As highlighted previously, part of the exercise is to become comfortable creating prompts for GitHub Copilot. One key tip is it's always good to provide more guidance to ensure you get the code you are looking for.
+    > NOTE: You should use your own phrasing when generating the prompt. As highlighted previously, part of the exercise is to become comfortable creating prompts for GitHub Copilot. One key tip is it's always good to provide more guidance to ensure you get the code you are looking for.
 
-    > [!NOTE]
-    > If you are asked to **Enable Claude 3.5 Sonnet for all clients** click on **Enable** button.
+    > NOTE: If you are asked to **Enable Claude 3.5 Sonnet for all clients** click on **Enable** button.
 
 Copilot agent mode begins implementing the code suggestions!
 
@@ -36,7 +34,7 @@ Unlike our prior examples where we worked with an individual file, we're now wor
 
 GitHub Copilot will propose the following changes to the application including updating the Products.razor and adding a Products.razor.css and maybe more.
 
-1. [] Review the suggestions and click "Accept All" to implement the code.
+1. [] Review the code changes from Agent mode
 
     The code should look similar to the following:
     ```html

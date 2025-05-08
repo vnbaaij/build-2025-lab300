@@ -25,7 +25,6 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    ![NES showing up](./images/1-nes.png)
 
 1. [] We now can implement the following endpoints using GitHub Copilot:
-   - GET product by ID
    - POST to create a new product
    - PUT to update a product
    - DELETE to remove a product
@@ -160,8 +159,7 @@ In this section, you'll use GitHub Copilot's code completion to implement API en
    }
    ```
 
-   > [!IMPORTANT]
-   >Because LLMs are probabilistic, not deterministic, the exact code generated can vary. The above is a representative example. If your code is different, that's just fine as long as it works!
+   > NOTE: Because LLMs are probabilistic, not deterministic, the exact code generated can vary. The above is a representative example. If your code is different, that's just fine as long as it works!
 
 1. [] Go back to **ProductEndpoints.cs**, and try changing the variable name of **id** to `productId` in the new **MapGet** method and see Next Edit Suggestions help out.
 

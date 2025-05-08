@@ -2,14 +2,13 @@
 
 Now, you'll improve the loading experience using Copilot's inline chat.
 
-> [!NOTE]
-> This exercise does supply specific prompts to type, but as part of the learning experience we encourage you to discover how to interact with Copilot. Feel free to talk in natural language, describing what you're looking for or need to accomplish.
+> NOTE: This exercise does supply specific prompts to type, but as part of the learning experience we encourage you to discover how to interact with Copilot. Feel free to talk in natural language, describing what you're looking for or need to accomplish.
 
 1. [] In the **Solution explorer** under the **Store** project open **Components/Pages/Products.razor**.
 1. [] Find the "Loading..." text in the code.
 1. [] Select this text and right-click.
 1. [] Choose "Ask Copilot" or press `Alt+/`.
-1. [] In the inline chat, type: "Update this to have a loading progress spinner and the text: Loading... under it"
+1. [] In the inline chat, type: `Update this to have a loading progress spinner`
 
     ![Screenshot of VS with inline chat](./images/2-inline-code.png)
 

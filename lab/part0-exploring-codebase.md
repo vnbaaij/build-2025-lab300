@@ -7,7 +7,6 @@ GitHub Copilot Chat allows you to ask questions about your code and get intellig
    ![Open chat window dialog](./images/1-open-copilot-chat.png)
 1. [] Try asking questions about the project structure:
    - `What projects are in this solution and how do things work together?`
-   - `What is the TinyShop application architecture?`
    - `How does the Products API work?`
 1. [] Notice how Copilot analyzes your codebase to provide contextual answers.
 
